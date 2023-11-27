@@ -1,0 +1,76 @@
+:root {
+  --cor-inicial: rgb(15, 15, 127);
+  --cor-final: #16550b;
+  --gradiente: linear-gradient(to bottom, var(--cor-inicial), var(--cor-final));
+  background-image: var(--gradiente);
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ecebf2;
+  padding: 2px;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgba(125, 130, 180, 0.744);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos para as colunas na tabela */
+.numero {
+    width: 80px;
+    border: solid 2px;
+    text-align: center;
+}
+
+.nome {
+    width: 400px;
+    border: solid 2px;
+    text-align: left;
+    padding: 5px; /* Adicionando um pequeno espaço interno */
+}
+
+.musica {
+    width: 60%;
+    border: solid 2px;
+    text-align: left;
+    padding: 5px; /* Adicionando um pequeno espaço interno */
+    
+}
+.playButton{
+    width: 100px; /* Define a largura do elemento de áudio */
+    text-align: center;
+    align-self: self-end;
+    font-size: 18px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tituloMusica {
+    float: left; /* Alinha o título à esquerda */
+    padding-right: 10px; /* Adiciona espaço entre o título e o botão */
+  }
+  
+  .controleMusica {
+    overflow: hidden; /* Limpa o float e mantém o controle à direita */
+  }
+
+/* Estilos para o rodapé */
+footer {
+    height: 80px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px; /* Reduzindo o espaço interno do rodapé */
+}
