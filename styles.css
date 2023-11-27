@@ -70,7 +70,9 @@ header {
 footer {
     height: 80px;
     background-color: black;
+    font-family: Georgia;
+    font-size:  15px; 
     color: antiquewhite;
     text-align: center;
-    padding: 20px; /* Reduzindo o espaço interno do rodapé */
+    padding: 10px; /* Reduzindo o espaço interno do rodapé */
 }
