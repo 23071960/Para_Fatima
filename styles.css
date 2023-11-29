@@ -137,8 +137,8 @@ header {
  @media screen and (min-width: 1024px){
 
   body{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     padding: 2px;
   }
  
@@ -185,7 +185,7 @@ header {
 /* Estilos para o rodapé */
     footer {
         height: 80px;
-        font-size: 25px; 
+        font-size: 20px; 
         color: antiquewhite;
         padding: 20px; /* Reduzindo o espaço interno do rodapé */
     }
