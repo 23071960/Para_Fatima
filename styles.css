@@ -1,0 +1,124 @@
+:root {
+  --cor-inicial: rgb(15, 15, 127);
+  --cor-final: #16550b;
+  --gradiente: linear-gradient(to bottom, var(--cor-inicial), var(--cor-final));
+  background-image: var(--gradiente);
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ecebf2;
+  padding: 1px;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgba(125, 130, 180, 0.744);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+/* Estilos para as colunas na tabela */
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.numero {
+  width:04%;
+  border: solid 2px;
+  text-align: center;
+}
+.nome {
+    width: 40%;
+    border: solid 2px;
+    text-align: left;
+    padding: 5px; /* Adicionando um pequeno espaço interno */
+}
+
+
+.musica {
+    width: 55%;
+    border: solid 2px;
+    text-align: left;
+    padding: 1px; /* Adicionando um pequeno espaço interno */
+    
+}
+.playButton{
+    width: 10vw; /* Define a largura do elemento de áudio */
+    text-align: center;
+    align-self: self-end;
+    font-size: 12px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tituloMusica {
+    float: left; /* Alinha o título à esquerda */
+    padding-right: 05px; /* Adiciona espaço entre o título e o botão */
+  }
+  
+  .controleMusica {
+    overflow: hidden; /* Limpa o float e mantém o controle à direita */
+  }
+
+/* Estilos para o rodapé */
+footer {
+    height: 50px;
+    background-color: black;
+    font-family: Georgia;
+    font-size:  15px; 
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px; /* Reduzindo o espaço interno do rodapé */
+}
+/* Estilos para telas maiores que 768 pixels de largura */
+@media screen and (min-width: 767px) {
+  /* Adicione aqui os estilos para telas menores que 768 pixels */
+  body {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  header {
+    font-size: 20px;
+    height: 50px;
+}
+  .tituloMusica {
+    float: left; /* Alinha o título à esquerda */
+    padding-right: 03px; /* Adiciona espaço entre o título e o botão */
+  }
+  .playButton{
+    width: 10vw; /* Define a largura do elemento de áudio */
+    text-align: center;
+    align-self: self-end;
+    font-size: 15px;
+  }
+
+}
+/* Estilos para telas maiores que 1024 pixels de largura */
+@media screen and (min-width: 1023px) {
+  /* Adicione aqui os estilos para telas menores que 768 pixels */
+  body {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  header {
+    font-size: 25px;
+    height: 60px;
+}
+  .tituloMusica {
+    float: left; /* Alinha o título à esquerda */
+    padding-right: 05px; /* Adiciona espaço entre o título e o botão */
+  }
+  .playButton{
+    width: 10vw; /* Define a largura do elemento de áudio */
+    text-align: center;
+    align-self: self-end;
+    font-size: 20px;    
+  }
+
+}
+
